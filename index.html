@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+<!-- Chang your title here! -->
+<title>YOUR TITLE GOES HERE</title>
+
+<!-- DO NOT CHANGE ANY OF THIS -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!-- Here is your stylesheet -->
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-image: url('https://www.innovationnewsnetwork.com/wp-content/uploads/2021/02/Primordial-galaxy.jpg');
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens DO NOT CHANGE THIS! */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+
+
+<body>
+
+<header>
+  <h2>About Luis</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="https://www.space.com/">space.com</a></li>
+      <li><a href="https://www.newscientist.com/subject/space/">New Scientist</a></li>
+      <li><a href="https://www.nasa.gov/">NASA</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>about me</h1>
+    <p>my name is luis bonilla i was born in the USA and my parents are for PR, my favorite animal is hamsters and i have one hamster,a cat, and a dog. </p>
+ <a href="URL"><img src="URL"> </a> 
+ </article>
+</section>
+
+<footer>
+  <p>luis bonilla lbonilla@mlvrcs.org</p>
+</footer>
+
+</body>
+</html>
